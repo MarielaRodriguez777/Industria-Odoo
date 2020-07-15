@@ -1,9 +1,7 @@
-   # -*- coding: utf-8 -*-
-
+ # -*- coding: utf-8 -*-
 from odoo import models, fields, api
-
-   name = fields.Char(string="Title", required=True)
-    description = fields.Text()
+name = fields.Char(string="Title", required=True)
+description = fields.Text()
 
 
 class Session(models.Model):
