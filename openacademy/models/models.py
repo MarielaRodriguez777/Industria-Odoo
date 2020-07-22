@@ -20,7 +20,7 @@ class Session(models.Model):
 
     taken_seats = fields.Float(string="Taken seats", compute='_taken_seats')
 
-        def copy(self, default=None):
+    def copy(self, default=None):
         default = dict(default or {})
 
         copied_count = self.search_count(
