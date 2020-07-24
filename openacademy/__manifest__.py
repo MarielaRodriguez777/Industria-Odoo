@@ -30,7 +30,7 @@
         'views/openacademy.xml',
         'views/partner.xml',
         'views/session_board.xml',               
-        'reports.xml', 
+        #'reports.xml', 
     ],
     # only loaded in demonstration mode
     'demo': [
